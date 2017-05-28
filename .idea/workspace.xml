@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5ae7b9e-2fd2-4fdc-b32d-ba5e1ab79dae" name="Default" comment="" />
+    <list default="true" id="b5ae7b9e-2fd2-4fdc-b32d-ba5e1ab79dae" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/wu/matt/microLabCollection/LightSwitcher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/wu/matt/microLabCollection/LightSwitcherTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/wu/matt/microLabCollection/LightSwitcher.java" afterPath="$PROJECT_DIR$/src/main/java/wu/matt/microLabCollection/LightSwitcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/wu/matt/microLabCollection/LightSwitcherTest.java" afterPath="$PROJECT_DIR$/src/test/java/wu/matt/microLabCollection/LightSwitcherTest.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,22 +22,27 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LightSwitcher.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LightSwitcher.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/wu/matt/microLabCollection/LightSwitcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="125">
+              <caret line="65" column="47" lean-forward="false" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
+              <folding>
+                <element signature="e#2472#2473#0" expanded="true" />
+                <element signature="e#2517#2518#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LightSwitcherTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LightSwitcherTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/wu/matt/microLabCollection/LightSwitcherTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="225">
+              <caret line="145" column="33" lean-forward="false" selection-start-line="145" selection-start-column="33" selection-end-line="145" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,6 +55,17 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>int</find>
+      <find>toBit</find>
+      <find>0b11111111</find>
+      <find>0b00000000</find>
+      <find>0b11110000</find>
+      <find>0b00001111</find>
+      <find>createFromString</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,8 +81,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/wu/matt/microLab-collection/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/wu/matt/microLab-collection/LightSwitcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/wu/matt/microLabCollection/LightSwitcher.java" />
         <option value="$PROJECT_DIR$/src/test/java/wu/matt/microLabCollection/LightSwitherTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wu/matt/microLabCollection/LightSwitcher.java" />
         <option value="$PROJECT_DIR$/src/test/java/wu/matt/microLabCollection/LightSwitcherTest.java" />
       </list>
     </option>
@@ -180,7 +201,111 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
-  <component name="RunManager" selected="JUnit.LightSwitcherTest">
+  <component name="RunManager" selected="JUnit.LightSwitcherTest.testGetSwitchPositionAt">
+    <configuration default="false" name="LightSwitcherTest.testFlipAllSwitches1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="wu.matt.microLabCollection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ZCW-Microlabs-Collections" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="wu.matt.microLabCollection" />
+      <option name="MAIN_CLASS_NAME" value="wu.matt.microLabCollection.LightSwitcherTest" />
+      <option name="METHOD_NAME" value="testFlipAllSwitches1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LightSwitcherTest.testFlipAllSwitches2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="wu.matt.microLabCollection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ZCW-Microlabs-Collections" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="wu.matt.microLabCollection" />
+      <option name="MAIN_CLASS_NAME" value="wu.matt.microLabCollection.LightSwitcherTest" />
+      <option name="METHOD_NAME" value="testFlipAllSwitches2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LightSwitcherTest.testFlipSwitches2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="wu.matt.microLabCollection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ZCW-Microlabs-Collections" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="wu.matt.microLabCollection" />
+      <option name="MAIN_CLASS_NAME" value="wu.matt.microLabCollection.LightSwitcherTest" />
+      <option name="METHOD_NAME" value="testFlipSwitches2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LightSwitcherTest.testGetSwitchPositionAt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="wu.matt.microLabCollection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ZCW-Microlabs-Collections" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="wu.matt.microLabCollection" />
+      <option name="MAIN_CLASS_NAME" value="wu.matt.microLabCollection.LightSwitcherTest" />
+      <option name="METHOD_NAME" value="testGetSwitchPositionAt" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="false" name="LightSwitcherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -580,12 +705,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.LightSwitcherTest" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.LightSwitcherTest.testFlipAllSwitches1" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LightSwitcherTest.testFlipAllSwitches2" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LightSwitcherTest.testFlipSwitches2" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LightSwitcherTest.testGetSwitchPositionAt" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LightSwitcherTest" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LightSwitcherTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.LightSwitcherTest.testGetSwitchPositionAt" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LightSwitcherTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LightSwitcherTest.testFlipAllSwitches2" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LightSwitcherTest.testFlipAllSwitches1" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LightSwitcherTest.testFlipSwitches2" />
       </list>
     </recent_temporary>
   </component>
@@ -599,17 +732,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1495912492721</updated>
-      <workItem from="1495912494170" duration="1616000" />
+      <workItem from="1495912494170" duration="26751000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LightSwitcherTest - 2017.05.27 at 15h 41m 40s.xml">
+    <history-entry file="LightSwitcherTest - 2017.05.28 at 01h 41m 00s.xml">
       <configuration name="LightSwitcherTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LightSwitcherTest_testFlipAllSwitches1 - 2017.05.28 at 01h 29m 38s.xml">
+      <configuration name="LightSwitcherTest.testFlipAllSwitches1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LightSwitcherTest_testFlipAllSwitches2 - 2017.05.28 at 01h 30m 22s.xml">
+      <configuration name="LightSwitcherTest.testFlipAllSwitches2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LightSwitcherTest_testGetSwitchPositionAt - 2017.05.28 at 01h 36m 00s.xml">
+      <configuration name="LightSwitcherTest.testGetSwitchPositionAt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LightSwitcherTest_testGetSwitchPositionAt - 2017.05.28 at 01h 36m 29s.xml">
+      <configuration name="LightSwitcherTest.testGetSwitchPositionAt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LightSwitcherTest_testGetSwitchPositionAt - 2017.05.28 at 01h 37m 53s.xml">
+      <configuration name="LightSwitcherTest.testGetSwitchPositionAt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LightSwitcherTest_testGetSwitchPositionAt - 2017.05.28 at 01h 38m 03s.xml">
+      <configuration name="LightSwitcherTest.testGetSwitchPositionAt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LightSwitcherTest_testGetSwitchPositionAt - 2017.05.28 at 01h 38m 19s.xml">
+      <configuration name="LightSwitcherTest.testGetSwitchPositionAt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LightSwitcherTest_testGetSwitchPositionAt - 2017.05.28 at 01h 38m 43s.xml">
+      <configuration name="LightSwitcherTest.testGetSwitchPositionAt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LightSwitcherTest_testGetSwitchPositionAt - 2017.05.28 at 01h 41m 18s.xml">
+      <configuration name="LightSwitcherTest.testGetSwitchPositionAt" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1616000" />
+    <option name="totallyTimeSpent" value="26751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
@@ -653,7 +813,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="14" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -698,7 +860,7 @@
         <state relative-caret-position="122">
           <caret line="155" column="48" lean-forward="false" selection-start-line="155" selection-start-column="48" selection-end-line="155" selection-end-column="48" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -711,19 +873,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/wu/matt/microLabCollection/LightSwitcher.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/wu/matt/microLabCollection/LightSwitcherTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="225">
+          <caret line="145" column="33" lean-forward="false" selection-start-line="145" selection-start-column="33" selection-end-line="145" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/wu/matt/microLabCollection/LightSwitcherTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/wu/matt/microLabCollection/LightSwitcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="125">
+          <caret line="65" column="47" lean-forward="false" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
+          <folding>
+            <element signature="e#2472#2473#0" expanded="true" />
+            <element signature="e#2517#2518#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
